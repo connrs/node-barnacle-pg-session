@@ -1,0 +1,31 @@
+{
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "name": "barnacle-pg-session",
+  "description": "",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/connrs/barnacle-pg-session.git"
+  },
+  "main": "lib/barnacle-pg-session.js",
+  "scripts": {
+    "test": "node_modules/tape/bin/tape test/*.js"
+  },
+  "licenses": [
+    {
+      "type": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+    }
+  ],
+  "author": "connrs",
+  "dependencies": {
+    "barnacle-mode": "0.0.2",
+    "sessions": "0.0.2-7",
+    "sessions-pg-store": "~0.2.2"
+  },
+  "devDependencies": {
+    "tape": "^2.5.0"
+  }
+}
